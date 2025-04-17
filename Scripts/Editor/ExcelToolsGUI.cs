@@ -40,10 +40,10 @@ namespace Basya
             Secondary
         }
 
-        [MenuItem("Window/ExcelToSOBJ")]
+        [MenuItem("Tools/ExcelToSO")]
         public static void ShowWindow()
         {
-            GetWindow<ExcelToolsGUI>("ExcelToSOBJ");
+            GetWindow<ExcelToolsGUI>("ExcelToSO");
         }
 
         private void OnGUI()
